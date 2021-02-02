@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Empty Dispatch for use as a Template for new dispatches, Mission Maker missions (if you want a Fake Wanted Level like thing) or just want to play without police.
+Can also be used if you make a conversion mod and need to change police spawns, perhaps if you make a custom mission and need custom respawning enemies handled by the Engine itself, go ahead use this
+-->
+<CDispatchData>
+	<!-- If you know what these settings do, go change them or leave default for GTA 5 default settings -->
+	<ParoleDuration value="9000"/>
+	<InHeliRadiusMultiplier value="1.5"/>
+	<ImmediateDetectionRange value="25.0"/>
+	<OnScreenImmediateDetectionRange value="45.0f"/>
+	<LawSpawnDelayMin>
+		<SLOW value="20.0"/>
+		<MEDIUM value="10.0"/>
+		<FAST value="10.0"/>
+	</LawSpawnDelayMin>
+	<LawSpawnDelayMax>
+		<SLOW value="30.0"/>
+		<MEDIUM value="20.0"/>
+		<FAST value="20.0"/>
+	</LawSpawnDelayMax>
+	<AmbulanceSpawnDelayMin>
+		<SLOW value="45.0"/>
+		<MEDIUM value="20.0"/>
+		<FAST value="20.0"/>
+	</AmbulanceSpawnDelayMin>
+	<AmbulanceSpawnDelayMax>
+		<SLOW value="60.0"/>
+		<MEDIUM value="30.0"/>
+		<FAST value="30.0"/>
+	</AmbulanceSpawnDelayMax>
+	<FireSpawnDelayMin>
+		<SLOW value="45.0"/>
+		<MEDIUM value="20.0"/>
+		<FAST value="20.0"/>
+	</FireSpawnDelayMin>
+	<FireSpawnDelayMax>
+		<SLOW value="60.0"/>
+		<MEDIUM value="30.0"/>
+		<FAST value="30.0"/>
+	</FireSpawnDelayMax>
+	<DispatchOrderDistances>
+		<Item>
+			<DispatchType>DT_PoliceAutomobile</DispatchType>
+			<OnFootOrderDistance value="200.0"/>
+			<MinInVehicleOrderDistance value="350.0"/>
+			<MaxInVehicleOrderDistance value="350.0"/>
+		</Item>
+		<Item>
+			<DispatchType>DT_PoliceHelicopter</DispatchType>
+			<OnFootOrderDistance value="200.0"/>
+			<MinInVehicleOrderDistance value="350.0"/>
+			<MaxInVehicleOrderDistance value="350.0"/>
+		</Item>
+		<Item>
+			<DispatchType>DT_SwatHelicopter</DispatchType>
+			<OnFootOrderDistance value="200.0"/>
+			<MinInVehicleOrderDistance value="350.0"/>
+			<MaxInVehicleOrderDistance value="350.0"/>
+		</Item>
+		<Item>
+			<DispatchType>DT_FireDepartment</DispatchType>
+			<OnFootOrderDistance value="200.0"/>
+			<MinInVehicleOrderDistance value="350.0"/>
+			<MaxInVehicleOrderDistance value="350.0"/>
+		</Item>
+		<Item>
+			<DispatchType>DT_SwatAutomobile</DispatchType>
+			<OnFootOrderDistance value="200.0"/>
+			<MinInVehicleOrderDistance value="350.0"/>
+			<MaxInVehicleOrderDistance value="350.0"/>
+		</Item>
+		<Item>
+			<DispatchType>DT_AmbulanceDepartment</DispatchType>
+			<OnFootOrderDistance value="200.0"/>
+			<MinInVehicleOrderDistance value="350.0"/>
+			<MaxInVehicleOrderDistance value="350.0"/>
+		</Item>
+		<Item>
+			<DispatchType>DT_Gangs</DispatchType>
+			<OnFootOrderDistance value="200.0"/>
+			<MinInVehicleOrderDistance value="350.0"/>
+			<MaxInVehicleOrderDistance value="350.0"/>
+		</Item>
+		<Item>
+			<DispatchType>DT_PoliceRiders</DispatchType>
+			<OnFootOrderDistance value="200.0"/>
+			<InVehicleOrderDistance value="350.0"/>
+		</Item>
+		<Item>
+			<DispatchType>DT_PoliceVehicleRequest</DispatchType>
+			<OnFootOrderDistance value="200.0"/>
+			<MinInVehicleOrderDistance value="350.0"/>
+			<MaxInVehicleOrderDistance value="350.0"/>
+		</Item>
+		<Item>
+			<DispatchType>DT_PoliceRoadBlock</DispatchType>
+			<OnFootOrderDistance value="350.0"/>
+			<MinInVehicleOrderDistance value="350.0"/>
+			<MaxInVehicleOrderDistance value="350.0"/>
+		</Item>
+		<Item>
+			<DispatchType>DT_PoliceBoat</DispatchType>
+			<OnFootOrderDistance value="200.0"/>
+			<MinInVehicleOrderDistance value="350.0"/>
+			<MaxInVehicleOrderDistance value="350.0"/>
+		</Item>
+		<Item>
+			<DispatchType>DT_ArmyVehicle</DispatchType>
+			<OnFootOrderDistance value="200.0"/>
+			<MinInVehicleOrderDistance value="350.0"/>
+			<MaxInVehicleOrderDistance value="350.0"/>
+		</Item>
+		<Item>
+			<DispatchType>DT_BikerBackup</DispatchType>
+			<OnFootOrderDistance value="200.0"/>
+			<MinInVehicleOrderDistance value="350.0"/>
+			<MaxInVehicleOrderDistance value="350.0"/>
+		</Item>
+		<Item>
+			<DispatchType>DT_Assassins</DispatchType>
+			<OnFootOrderDistance value="200.0"/>
+			<MinInVehicleOrderDistance value="350.0"/>
+			<MaxInVehicleOrderDistance value="350.0"/>
+		</Item>
+	</DispatchOrderDistances>
+	<WantedLevelThresholds>
+		<WantedLevelClean value="0"/>
+		<WantedLevel1 value="50"/>
+		<WantedLevel2 value="180"/>
+		<WantedLevel3 value="550"/>
+		<WantedLevel4 value="1200"/>
+		<WantedLevel5 value="3800"/>
+	</WantedLevelThresholds>
+	<SingleplayerWantedLevelRadius>
+		<WantedLevelClean value="0.0"/>
+		<WantedLevel1 value="145.0"/>
+		<WantedLevel2 value="227.5"/>
+		<WantedLevel3 value="340.0"/>
+		<WantedLevel4 value="510.0"/>
+		<WantedLevel5 value="850.0"/>
+	</SingleplayerWantedLevelRadius>
+	<MultiplayerWantedLevelRadius>
+		<WantedLevelClean value="0.0"/>
+		<WantedLevel1 value="217.5"/>
+		<WantedLevel2 value="341.25"/>
+		<WantedLevel3 value="450.0"/>
+		<WantedLevel4 value="645.0"/>
+		<WantedLevel5 value="1275.0"/>
+	</MultiplayerWantedLevelRadius>
+	<HiddenEvasionTimes>
+		<WantedLevelClean value="0"/>
+		<WantedLevel1 value="30000"/>
+		<WantedLevel2 value="37500"/>
+		<WantedLevel3 value="45000"/>
+		<WantedLevel4 value="56250"/>
+		<WantedLevel5 value="82500"/>
+	</HiddenEvasionTimes>
+	<MultiplayerHiddenEvasionTimes>
+		<WantedLevelClean value="0"/>
+		<WantedLevel1 value="30000"/>
+		<WantedLevel2 value="37500"/>
+		<WantedLevel3 value="40500"/>
+		<WantedLevel4 value="50625"/>
+		<WantedLevel5 value="74250"/>
+	</MultiplayerHiddenEvasionTimes>
+	<VehicleSets>
+        	<Vehicle>
+			<Name>AMBULANCE</Name>
+			<ConditionalVehicleSets>
+				<Item>
+					<VehicleModels>
+						<Vehicle>ambulance</Vehicle>
+					</VehicleModels>
+					<PedModels>
+						<Ped>S_M_M_Paramedic_01</Ped> 
+					</PedModels>
+				</Item>
+			</ConditionalVehicleSets>
+		</Vehicle>
+        	<Vehicle>
+			<Name>FIRE_TRUCK</Name>
+			<ConditionalVehicleSets>
+				<Item>
+					<VehicleModels>
+						<Vehicle>firetruk</Vehicle>
+					</VehicleModels>
+					<PedModels>
+						<Ped>S_M_Y_Fireman_01</Ped> 
+					</PedModels>
+				</Item>
+			</ConditionalVehicleSets>
+		</Vehicle>
+        	<Vehicle>
+			<Name>POLICE_DISPATCH</Name> <!-- Re-added this because player can still call emergency service -->
+			<ConditionalVehicleSets>
+				<Item>
+					<VehicleModels>
+						<Vehicle>police</Vehicle>
+					</VehicleModels>
+					<PedModels>
+						<Ped>S_M_Y_Cop_01</Ped> 
+					</PedModels>
+				</Item>
+			</ConditionalVehicleSets>
+		</Vehicle>
+		<Vehicle>
+			<Name>GANGS</Name> <!-- Martin Madrazo Goons -->
+			<ConditionalVehicleSets>
+				<Item>
+					<VehicleModels>
+						<Vehicle>cavalcade</Vehicle>
+					</VehicleModels>
+					<PedModels>
+						<Ped>G_M_Y_PoloGoon_01</Ped>
+					</PedModels>
+				</Item>
+			</ConditionalVehicleSets>
+		</Vehicle>
+		<Vehicle>
+			<Name>ASSASSINS</Name> <!-- GTA Online's Assasins -->
+			<ConditionalVehicleSets>
+				<Item>
+					<VehicleModels>
+						<Vehicle>cog55</Vehicle>
+						<Vehicle>cog552</Vehicle>
+					</VehicleModels>
+					<PedModels>
+						<Ped>S_M_M_HighSec_01</Ped>
+					</PedModels>
+				</Item>
+			</ConditionalVehicleSets>
+		</Vehicle>
+		<Vehicle>
+			<Name>CUSTOM_SCRIPTED</Name> <!-- Custom Scripted Gang (replace a DT_Gangs or something and call using a native with a script -->
+			<ConditionalVehicleSets>
+				<Item>
+					<VehicleModels>
+						<Vehicle>stanier</Vehicle>
+					</VehicleModels>
+					<PedModels>
+						<Ped>S_M_M_HighSec_01</Ped>
+					</PedModels>
+				</Item>
+			</ConditionalVehicleSets>
+		</Vehicle>
+	</VehicleSets>
+	<PedVariations>
+		<Item key="S_M_M_HighSec_01">
+			<ModelVariations>
+				<Item>
+         			<Component>PV_COMP_JBIB</Component>
+          			<DrawableId value="0"/>
+				</Item>
+			</ModelVariations>
+		</Item>
+	</PedVariations>
+	<WantedResponses> <!-- See vanilla dispatch.meta to re-add a dispatch, these are left blank to not spawn anything. -->
+		<WantedLevel1>
+			<DispatchServices />
+		</WantedLevel1>
+		<WantedLevel2>
+			<DispatchServices />
+		</WantedLevel2>
+		<WantedLevel3>
+			<DispatchServices />
+		</WantedLevel3>
+		<WantedLevel4>
+			<DispatchServices />
+		</WantedLevel4>
+		<WantedLevel5>
+			<DispatchServices />
+		</WantedLevel5>
+	</WantedResponses>
+    <EmergencyResponses>
+        <Item>
+            <DispatchType>DT_FireDepartment</DispatchType>
+            <NumPedsToSpawn value="4"/>
+            <DispatchVehicleSets>
+                <Dispatch>FIRE_TRUCK</Dispatch>
+            </DispatchVehicleSets>
+        </Item>
+        <Item>
+            <DispatchType>DT_AmbulanceDepartment</DispatchType>
+            <NumPedsToSpawn value="2"/>
+            <DispatchVehicleSets>
+                <Dispatch>AMBULANCE</Dispatch>
+            </DispatchVehicleSets>
+        </Item>
+        <Item>
+	    <DispatchType>DT_PoliceVehicleRequest</DispatchType>
+            <NumPedsToSpawn value="2"/>
+            <DispatchVehicleSets>
+			<Dispatch>POLICE_DISPATCH</Dispatch>
+          </DispatchVehicleSets>
+        </Item>
+		<Item>
+			<DispatchType>DT_Gangs</DispatchType>
+			<NumPedsToSpawn value="6"/>
+			<DispatchVehicleSets>
+				<Dispatch>GANGS</Dispatch>
+			</DispatchVehicleSets>
+		</Item>
+		<Item>
+			<DispatchType>DT_ArmyVehicle</DispatchType>
+			<NumPedsToSpawn value="6"/>
+			<DispatchVehicleSets>
+				<Dispatch>CUSTOM_SCRIPTED</Dispatch>
+			</DispatchVehicleSets>
+		</Item>
+		<Item>
+			<DispatchType>DT_BikerBackup</DispatchType>
+			<NumPedsToSpawn value="4"/>
+			<DispatchVehicleSets>
+				<Dispatch>CUSTOM_SCRIPTED</Dispatch>
+			</DispatchVehicleSets>
+		</Item>
+		<Item>
+			<DispatchType>DT_Assassins</DispatchType>
+			<NumPedsToSpawn value="4"/>
+			<DispatchVehicleSets>
+				<Dispatch>ASSASSINS</Dispatch>
+			</DispatchVehicleSets>
+		</Item>
+	</EmergencyResponses>
+</CDispatchData>
+
